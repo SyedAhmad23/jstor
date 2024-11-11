@@ -15,7 +15,20 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  /* color: var(--foreground); */
+  /* background: var(--background); */
   font-family: Arial, Helvetica, sans-serif;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000; /* Set icon color to black (or any color) */
+  font-size: 1.5rem; /* Adjust size if needed */
+}
+
+.swiper-button-next {
+  right: 10px; /* Positioning */
+}
+
+.swiper-button-prev {
+  left: 10px; /* Positioning */
 }

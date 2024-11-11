@@ -12,6 +12,18 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      container: {
+        center: true,
+        padding: "1rem",
+        screens: {
+          custom: "81rem",
+          sm: "100%",
+          md: "100%",
+          lg: "100%",
+          xl: "100%",
+          "2xl": "100%",
+        },
+      },
     },
   },
   plugins: [],
